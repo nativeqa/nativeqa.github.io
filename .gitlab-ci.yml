@@ -3,6 +3,8 @@ image: ruby:3.2.2
 before_script:
   - bundle install
 
+plugins:
+  - jekyll-jupyter-notebook
 
 test:
   stage: test
