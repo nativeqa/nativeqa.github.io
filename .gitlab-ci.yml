@@ -1,8 +1,5 @@
-image: jekyll/builder:latest
+image: ruby:3.3
 
-variables:
-  JEKYLL_ENV: production
-  
 before_script:
   - bundle install
 
