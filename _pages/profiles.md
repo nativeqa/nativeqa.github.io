@@ -12,7 +12,7 @@ profiles:
   - align: right
     image: avatar.png
     content: arid.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Md. Arid Hasan</p><br/>
       <p>Email</p>
