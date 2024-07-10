@@ -10,6 +10,9 @@
   crossorigin="anonymous"
 >
 
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
   <link
@@ -30,6 +33,10 @@
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
 
+<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+
 <!-- Code Syntax Highlighting -->
 <link
   defer
@@ -38,6 +45,8 @@
   media=""
   id="highlight_theme_light"
 >
+<link defer rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url }}" media="" id="highlight_theme_light">
+
 
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
@@ -45,6 +54,8 @@
 {% endif %}
 
 <!-- Styles -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="canonical" href="{{ 'https://nativqa.github.io/nativqa/' | relative_url }}">
 
 <!-- pseudocode -->
 {% if page.pseudocode %}
@@ -78,10 +89,14 @@
     media="none"
     id="highlight_theme_dark"
   >
+  <link defer rel="stylesheet" href="{{ '/assets/css/jekyll-pygments-themes-native.css' | relative_url }}" media="none" id="highlight_theme_dark">
   <script>
     initTheme();
   </script>
+
 {% endif %}
+
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
 <!-- GeoJSON support via Leaflet -->
 {% if page.map %}
