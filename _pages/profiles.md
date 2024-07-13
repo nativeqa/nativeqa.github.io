@@ -15,62 +15,54 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Md. Arid Hasan</p><br/>
-      <p>Email</p>
   - align: left
-    image: avatar.png
+    image: Maram2.jpg
     content: maram.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Maram Hasanain</p><br/>
-      <p>Email: </p>
-  - align: left
+  - align: right
     image: avatar.png
     content: fatema.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Fatema Ahmad</p><br/>
-      <p>Email: </p>
   - align: left
     image: sahinur.jpg
     content: sahinur.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Shahinur</p><br/>
-      <p>Email: </p>
-  - align: left
+      <p>Sahinur Rahman Laskar</p><br/>
+  - align: right
     image: avatar.png
     content: sunaya.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sunaya Upadhyay</p><br/>
-      <p>Email: </p>            
   - align: left
     image: avatar.png
     content: vrunda.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Vrunda N Sukhadia</p><br/>
-      <p>Email: </p>
-  - align: left
+  - align: right
     image: avatar.png
     content: mucahid.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Mucahid Kutlu</p><br/>
-      <p>Email: </p>
   - align: left
-    image: avatar.png
+    image: Shammur.jpg
     content: shammur.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Shammur Absar Chowdhury</p><br/>
-      <p>Email: </p>
-  - align: left
-    image: avatar.png
+      <p><a href="http://shammur.one/">Shammur Absar Chowdhury</a></p><br/>
+  - align: right
+    image: firoj_web5.jpg
     content: firoj.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Firoj Alam</p><br/>
-      <p>Email: </p>
+      <p><a href="https://sites.google.com/site/firojalam">Firoj Alam</a></p><br/>      
+
 
 ---

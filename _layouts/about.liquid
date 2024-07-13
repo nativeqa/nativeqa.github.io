@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -77,4 +77,19 @@ layout: default
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
+</div>
+
+<div class="post">
+    <h3>Joint Effort in NativQA Research</h3>
+    <p>NativQA is a multi-institutes collaborative effort including:</p>
+    <ul>
+        <li>Qatar Computing Research Institute, Qatar</li>
+        <li>University of New Brunswick, Canada</li>
+        <li>UPES, India</li>
+        <li>Carnegie Mellon University in Qatar, Qatar</li>
+        <li>Qatar University, Qatar</li>
+    </ul>
+
+    <p><strong>Lead by <a href="https://alt.qcri.org/">Arabic Language Technologies</a>, <a href="https://www.hbku.edu.qa/en/qcri">Qatar Computing Research Institute</a>, HBKU, Qatar</strong></p>
+
 </div>

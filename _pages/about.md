@@ -20,12 +20,16 @@ Natural Question Answering (QA) datasets play a crucial role in developing and e
 
 <br/>
 <br/>
-#### Dataset stats
+#### Multi*NativQA* Dataset
+
+##### Statistics
 TO DO:
 
-#### Domain Coverage
-TO DO:
+##### Topics Coverage
 
-#### Language Coverage
+| **Selected topics used as seed to collect manual queries.**                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Animal, Business, Cloth, Education, Events, Food & Drinks, General, Geography, Immigration Related, Language, Literature, Names & Persons, Plants, Religion, Sports & Games, Tradition, Travel, Weather |
 
-TO DO:
+<br/>
+##### Language Coverage
