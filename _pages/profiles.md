@@ -13,22 +13,25 @@ profiles:
     content: arid.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Md. Arid Hasan</p><br/>
+      <p><a href="https://www.linkedin.com/in/aridhasan/">Md. Arid Hasan</a></p><br/>
+
   - image: Maram2.jpg
     content: maram.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Maram Hasanain</p><br/>
+      <p><a href="https://scholar.google.com/citations?user=GtvNhM8AAAAJ&hl=en&oi=ao/">Maram Hasanain</a></p><br/>
+
   - image: avatar.png
     content: fatema.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Fatema Ahmad</p><br/>
+      <p><a href="https://www.linkedin.com/in/fatema-ahmad-b13a21260/">Fatema Ahmad</a></p><br/>
   - image: sahinur.jpg
     content: sahinur.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Sahinur Rahman Laskar</p><br/>
+      <p><a href="https://sahinurlaskar.github.io/">Sahinur Rahman Laskar</a></p><br/>
+
   - image: avatar.png
     content: sunaya.md
     image_circular: true # crops the image to make it circular

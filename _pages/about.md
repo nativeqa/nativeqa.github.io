@@ -4,10 +4,11 @@ title: about
 permalink: /
 subtitle: "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs"
 
-profile:
-  align: center
-  image: language_donut_chart.png
-  image_circular: false # crops the image to make it circular
+#profile:
+#  align: center
+#  image: language_donut_chart.png
+#  image_circular: false
+  # crops the image to make it circular
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,7 +24,13 @@ Natural Question Answering (QA) datasets play a crucial role in developing and e
 #### Multi*NativQA* Dataset
 
 ##### Statistics
+
 TO DO:
+
+<div style="width: 50%; height: auto; margin: 0 auto;">
+    {% include figure.liquid loading="eager" path="assets/img/language_donut_chart.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
 
 ##### Topics Coverage
 
