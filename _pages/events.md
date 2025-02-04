@@ -1,0 +1,22 @@
+---
+layout: default
+title: events
+permalink: /events/
+title: events
+nav: true
+nav_order: 3
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /page/:num/
+  per_page: 5
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 1 # The number of links before the current page
+    after: 3 # The number of links after the current page
+---
+
+List of events we have organized.
+
+{% include events.liquid %}

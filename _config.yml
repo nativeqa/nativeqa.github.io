@@ -188,14 +188,19 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /news/:path/
-  # projects:
-  #   output: true
-  #   permalink: /projects/:path/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  events:
+    defaults:
+      layout: post
+    output: true
+    permalink: /events/:path/    
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 announcements:
   enabled: true

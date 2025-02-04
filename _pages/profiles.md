@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: authors
-description: Authors contributed to this project.
+title: collaborators
+description: This is collaborative effort to make LLMs more culturally inclusive. 
 nav: true
 nav_order: 7
 
