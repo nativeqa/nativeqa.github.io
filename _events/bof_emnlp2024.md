@@ -6,7 +6,7 @@ inline: false
 related_posts: true
 ---
 
-## Birds-of-a-Feather Session at EMNLP 2024, November 13, 2024
+## Birds-of-a-Feather Session at EMNLP 2025, November 13, 2024
 This Birds of a Feather session explores strategies for enhancing large language models to better represent and serve diverse cultural and native aspects. The session begins with a presentation of recent research on incorporating native and cultural perspectives into LLMs, including challenges and advancements in multilingual and culturally aligned datasets. An open discussion follows, encouraging participants to share insights, use cases, and collaborative ideas for building more inclusive LLMs that respect and accurately reflect linguistic and cultural nuances.
 
 
