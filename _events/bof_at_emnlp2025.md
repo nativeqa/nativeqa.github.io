@@ -26,7 +26,7 @@ The session aims to foster open discussion around **datasets, benchmarks, modeli
 
 | Time | Title | Speaker / Presenter | Mode |
 |---|---|---|---|
-| 16:30 – 16:40 | **Opening**[Slides]({{ '/assets/presentations/EMNLP_2025/bof_emnlp_2025_native_cultural_inclusivity_in_LLM.pdf' \| relative_url }}) | Firoj Alam, Qatar Computing Research Institute | In-person |
+| 16:30 – 16:40 | **Opening**<br/>[Slides]({{ '/assets/presentations/EMNLP_2025/bof_emnlp_2025_native_cultural_inclusivity_in_LLM.pdf' \| relative_url }}) | Firoj Alam, Qatar Computing Research Institute | In-person |
 | 16:40 – 17:00 | **A Multilingual and Multimodal Framework for Culturally Grounded Spoken Visual QA**<br/>[Slides]({{ '/assets/presentations/EMNLP_2025/AI-for-native-local-EMNLP_2025.pdf' \| relative_url }}) | Shammur Absar Chowdhury, Qatar Computing Research Institute | In-person |
 | 17:00 – 17:20 | **Grounding Multilingual Multimodal LLMs With Cultural Knowledge**<br/>[Slides]({{ '/assets/presentations/EMNLP_2025/CulturalGrounding.pdf' \| relative_url }}) | Jean de Dieu Nyandwi, Carnegie Mellon University | In-person |
 | 17:20 – 17:40 | **Pearl: A Multimodal Culturally-Aware Arabic Instruction Dataset**<br/>[Slides]({{ '/assets/presentations/EMNLP_2025/pearl_presentation_2025107.pdf' \| relative_url }}) | Muhammad Abdul-Mageed, University of British Columbia | In-person |
