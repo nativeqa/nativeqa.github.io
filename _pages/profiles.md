@@ -1,26 +1,34 @@
 ---
 layout: profiles
 permalink: /people/
-title: collaborators
-description: This is collaborative effort to make LLMs more culturally inclusive. 
+title: contributors
+description: Contributors working to make LLM evaluation more culturally inclusive.
 nav: true
 nav_order: 7
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+  - image: firoj_web5.jpg
+    content: firoj.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p><a href="https://sites.google.com/site/firojalam">Firoj Alam</a></p><br/>      
   - image: avatar.png
     content: arid.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p><a href="https://www.linkedin.com/in/aridhasan/">Md. Arid Hasan</a></p><br/>
-
-  - image: Maram2.jpg
+  - image: Shammur.jpg
+    content: shammur.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p><a href="http://shammur.one/">Shammur Absar Chowdhury</a></p><br/>
+  - image: avatar.png
     content: maram.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p><a href="https://scholar.google.com/citations?user=GtvNhM8AAAAJ&hl=en&oi=ao/">Maram Hasanain</a></p><br/>
-
   - image: avatar.png
     content: fatema.md
     image_circular: true # crops the image to make it circular
@@ -31,32 +39,28 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p><a href="https://sahinurlaskar.github.io/">Sahinur Rahman Laskar</a></p><br/>
-
   - image: avatar.png
     content: sunaya.md
-    image_circular: true # crops the image to make it circular
+    image_circular: true
     more_info: >
       <p>Sunaya Upadhyay</p><br/>
   - image: avatar.png
     content: vrunda.md
-    image_circular: true # crops the image to make it circular
+    image_circular: true
     more_info: >
       <p>Vrunda N Sukhadia</p><br/>
   - image: avatar.png
     content: mucahid.md
-    image_circular: true # crops the image to make it circular
+    image_circular: true
     more_info: >
       <p>Mucahid Kutlu</p><br/>
-  - image: Shammur.jpg
-    content: shammur.md
-    image_circular: true # crops the image to make it circular
+      
+  - image: avatar.png
+    content: hunzalah.md
+    image_circular: true
     more_info: >
-      <p><a href="http://shammur.one/">Shammur Absar Chowdhury</a></p><br/>
-  - image: firoj_web5.jpg
-    content: firoj.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p><a href="https://sites.google.com/site/firojalam">Firoj Alam</a></p><br/>      
+      <p><a href="https://www.linkedin.com/in/hunz">Hunzalah Hassan Bhatti</a></p><br/>
+
 
 
 ---

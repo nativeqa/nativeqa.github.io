@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: NativQA
 permalink: /
-subtitle: "NativQA: Multilingual Culturally-Aligned Natural Query for LLMs"
+subtitle: "Framework and benchmark for culturally aligned multilingual natural question answering"
+description: "NativQA is a scalable framework and benchmark for building culturally aligned multilingual natural question answering datasets in native languages for LLM evaluation and fine-tuning."
+keywords: NativQA, multilingual natural question answering, culturally aligned QA, LLM benchmarking, LLM evaluation, low-resource languages, native speaker queries, nativqa-framework
 
 #profile:
 #  align: center
@@ -14,34 +16,83 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Natural Question Answering (QA) datasets play a crucial role in evaluating the capabilities of large language models (LLMs), ensuring their effectiveness in real-world applications. Despite the numerous QA datasets that have been developed, there is a notable lack of region-specific datasets created by native users in their own languages. This gap hinders the effective benchmarking of LLMs for regional and cultural specificities and limits the development of fine-tuned models.
-
-In this study, we propose a scalable, language-independent framework, NativQA, to seamlessly construct culturally and regionally aligned QA datasets in native languages for LLM evaluation and tuning. We demonstrate the efficacy of the proposed framework by designing a multilingual natural QA dataset, MultiNativQA, consisting of approximately 64k manually annotated QA pairs in seven languages, ranging from high- to extremely low-resource languages, based on queries from native speakers from nine regions covering 18 topics.
-
-We benchmark both open- and closed-source LLMs using the MultiNativQA dataset. Additionally, we showcase the framework's efficacy in constructing fine-tuning data, especially for low-resource and dialectally rich languages. Both the NativQA framework and the MultiNativQA dataset have been made publicly available to the community.
-
-<br/>
-<br/>
-{% include figure.liquid loading="eager" path="assets/img/data_collection_pipeline_nativqa.png" title="example image" class="img-fluid rounded z-depth-1" %}
-
-<br/>
-<br/>
-
-#### Multi*NativQA* Dataset
-
-##### Statistics
-
-<div style="width: 50%; height: auto; margin: 0 auto;">
-    {% include figure.liquid loading="eager" path="assets/img/language_donut_chart.png" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="landing-hero">
+  <div class="landing-hero__copy">
+    <p class="landing-eyebrow">Framework + benchmark for multilingual LLM evaluation</p>
+    <h2>Build culturally aligned natural QA datasets grounded in native speakers and local context.</h2>
+    <p class="landing-lead">
+      NativQA is a scalable, language-independent framework for constructing question answering datasets in native languages. It supports both evaluation and fine-tuning of large language models, with MultiNativQA as a public benchmark built from regionally grounded, native-speaker queries.
+    </p>
+    <div class="landing-actions">
+      <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="https://gitlab.com/nativqa/nativqa-framework" target="_blank" rel="noopener noreferrer">View framework on GitLab</a>
+      <a class="btn btn-sm z-depth-0 landing-btn landing-btn--secondary" href="https://pypi.org/project/nativqa-framework/" target="_blank" rel="noopener noreferrer">Install from PyPI</a>
+      <a class="btn btn-sm z-depth-0 landing-btn" href="{{ '/resources/' | relative_url }}">Explore resources</a>
+    </div>
+    <p class="landing-install"><span>Quick install</span> <code>pip install nativqa-framework</code></p>
+  </div>
+  <div class="landing-hero__media">
+    {% include figure.liquid loading="eager" path="assets/img/data_collection_pipeline_nativqa.png" title="NativQA data pipeline" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 
+### Explore resources
 
-##### Topics Coverage
+<div class="row">
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">Framework</p>
+        <h3 class="card-title">NativQA Framework</h3>
+        <p class="card-text">
+          Use the framework to create culturally and regionally aligned QA datasets for multilingual LLM evaluation and tuning.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/#framework' | relative_url }}">Framework resources</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">Dataset</p>
+        <h3 class="card-title">MultiNativQA Dataset</h3>
+        <p class="card-text">
+          See dataset links, download metrics, language coverage, and topic distribution in a dedicated resources page.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--secondary" href="{{ '/resources/#dataset' | relative_url }}">Dataset resources</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-| **Selected topics used as seed to collect manual queries.**                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Animal, Business, Cloth, Education, Events, Food & Drinks, General, Geography, Immigration Related, Language, Literature, Names & Persons, Plants, Religion, Sports & Games, Tradition, Travel, Weather |
+### Why NativQA
 
-<br/>
-##### Language Coverage
-Arabic, Assamese, Bangla, English, Hindi, Nepali, Turkish
+<div class="row">
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 landing-mini-card">
+      <div class="card-body">
+        <h3 class="card-title">Native-speaker grounded</h3>
+        <p class="card-text">Queries are sourced from native speakers, making evaluation data closer to real local information needs.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 landing-mini-card">
+      <div class="card-body">
+        <h3 class="card-title">Culturally aligned</h3>
+        <p class="card-text">The benchmark emphasizes region-specific and culturally situated questions that generic QA sets often miss.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 landing-mini-card">
+      <div class="card-body">
+        <h3 class="card-title">Evaluation + tuning ready</h3>
+        <p class="card-text">The same framework supports both benchmarking open- and closed-source LLMs and creating fine-tuning data.</p>
+      </div>
+    </div>
+  </div>
+</div>

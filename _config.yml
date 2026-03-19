@@ -8,16 +8,16 @@ middle_name:
 last_name:
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  NativQA is a framework and benchmark for building culturally aligned multilingual natural question answering datasets in native languages for LLM evaluation and fine-tuning.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Qatar Computing Research Institute.<br>Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-keywords: native, question, answer, multilingual, cultural, regional, LLMs # add your own keywords or leave empty
+keywords: NativQA, multilingual natural question answering, culturally aligned QA, LLM benchmarking, LLM evaluation, low-resource languages, native speaker queries
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: /apple-touch-icon.png #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://nativqa.github.io # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://nativqa.gitlab.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -62,9 +62,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://nativqa.gitlab.io/assets/img/data_collection_pipeline_nativqa.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
