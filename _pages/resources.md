@@ -2,26 +2,40 @@
 layout: page
 title: resources
 permalink: /resources/
-description: Framework links, dataset links, and related work pages for NativQA resources.
+description: Framework links and dedicated resource pages for NativQA datasets and related work.
 nav: true
 nav_order: 1
 ---
 
-The resources below collect the official links, usage indicators, and coverage details for the framework, datasets, and related work pages.
+The resources below collect the official framework links and dedicated pages for datasets and related work.
 
-## EverydayMMQA and OASIS
+## Resource pages
 
 <div class="row">
   <div class="col-lg-6 mb-4">
     <div class="card h-100 landing-card">
       <div class="card-body">
+        <p class="landing-card__kicker">Dataset</p>
+        <h3 class="card-title">MultiNativQA Dataset</h3>
+        <p class="card-text">
+          Explore dataset links, live download metrics, language coverage, regional scope, and topic distribution for the multilingual natural QA benchmark.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--secondary" href="{{ '/resources/multinativqa/' | relative_url }}">Open page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
         <p class="landing-card__kicker">Spoken visual QA</p>
-        <!-- <h3 class="card-title">EverydayMMQA and OASIS</h3> -->
+        <h3 class="card-title">EverydayMMQA and OASIS</h3>
         <p class="card-text">
           Explore the multilingual and multimodal framework for culturally grounded spoken visual QA, with the paper summary, pipeline, dataset scale, and benchmark findings in one place.
         </p>
         <div class="landing-actions">
-          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/everydaymmqa/' | relative_url }}">EverydayMMQA Detail</a>
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/everydaymmqa/' | relative_url }}">Open page</a>
         </div>
       </div>
     </div>
@@ -30,10 +44,6 @@ The resources below collect the official links, usage indicators, and coverage d
 
 ## NativQA Framework {#framework}
 
-<div class="landing-actions">
-  <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="https://gitlab.com/nativqa/nativqa-framework" target="_blank" rel="noopener noreferrer">GitLab repository</a>
-  <a class="btn btn-sm z-depth-0 landing-btn landing-btn--secondary" href="https://pypi.org/project/nativqa-framework/" target="_blank" rel="noopener noreferrer">PyPI package</a>
-</div>
 
 <p class="landing-install"><span>Quick install</span> <code>pip install nativqa-framework</code></p>
 
@@ -56,82 +66,17 @@ The resources below collect the official links, usage indicators, and coverage d
   </div>
 </div>
 
-
-### MultiNativQA Dataset {#multinativqadataset}
-
-<div class="landing-actions">
-  <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="https://huggingface.co/datasets/QCRI/MultiNativQA" target="_blank" rel="noopener noreferrer">Hugging Face dataset</a>
-  <a class="btn btn-sm z-depth-0 landing-btn" href="{{ '/publications/' | relative_url }}">Related publications</a>
-</div>
-
-<div class="landing-stats landing-stats--resource">
-  <div class="landing-stat card">
-    <div class="landing-stat__value" id="dataset-hf-downloads">3,797</div>
-    <p class="landing-stat__label">Hugging Face downloads (all-time)</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value" id="dataset-hf-likes">1</div>
-    <p class="landing-stat__label">Hugging Face likes</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value" id="dataset-config-count">9</div>
-    <p class="landing-stat__label">dataset configs</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value landing-stat__value--small">CC BY-NC-SA 4.0</div>
-    <p class="landing-stat__label">license</p>
-  </div>
-</div>
-
-<div class="landing-stats">
-  <div class="landing-stat card">
-    <div class="landing-stat__value">64k+</div>
-    <p class="landing-stat__label">manually annotated QA pairs</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value">7</div>
-    <p class="landing-stat__label">languages represented</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value">9</div>
-    <p class="landing-stat__label">regions covered</p>
-  </div>
-  <div class="landing-stat card">
-    <div class="landing-stat__value">18</div>
-    <p class="landing-stat__label">seed topics for query collection</p>
-  </div>
-</div>
-
-#### Coverage at a glance
-
 <div class="landing-coverage">
   <div class="landing-coverage__chart">
-    {% include figure.liquid loading="eager" path="assets/img/language_donut_chart.png" title="Language distribution in MultiNativQA" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/data_collection_pipeline_nativqa.png" title="NativQA framework pipeline" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="landing-coverage__content">
     <p>
-      MultiNativQA spans queries collected from native speakers across nine regions and covers everyday as well as specialized topics for more realistic multilingual evaluation.
+      The NativQA Framework provides the collection and processing pipeline used to build culturally aligned QA resources from native-speaker and region-aware queries.
     </p>
-    <div class="landing-chip-row landing-chip-row--topics">
-      <span>Animal</span>
-      <span>Business</span>
-      <span>Cloth</span>
-      <span>Education</span>
-      <span>Events</span>
-      <span>Food &amp; Drinks</span>
-      <span>General</span>
-      <span>Geography</span>
-      <span>Immigration</span>
-      <span>Language</span>
-      <span>Literature</span>
-      <span>Names &amp; Persons</span>
-      <span>Plants</span>
-      <span>Religion</span>
-      <span>Sports &amp; Games</span>
-      <span>Tradition</span>
-      <span>Travel</span>
-      <span>Weather</span>
-    </div>
+    <p>
+      It supports multilingual dataset construction workflows that can feed both benchmarking and fine-tuning, and it also serves as the foundation for the public resource pages linked above.
+    </p>
   </div>
 </div>
 
@@ -226,31 +171,6 @@ The resources below collect the official links, usage indicators, and coverage d
       })
       .catch(function () {
         setText("framework-pypi-downloads", "Unavailable");
-      });
-
-    fetch("https://huggingface.co/api/datasets/QCRI/MultiNativQA?expand[]=downloadsAllTime&expand[]=likes")
-      .then(function (response) {
-        if (!response.ok) {
-          throw new Error("Hugging Face API unavailable");
-        }
-        return response.json();
-      })
-      .then(function (data) {
-        if (typeof data.downloadsAllTime === "number") {
-          setText("dataset-hf-downloads", formatNumber(data.downloadsAllTime));
-        } else if (typeof data.downloads === "number") {
-          setText("dataset-hf-downloads", formatNumber(data.downloads));
-        }
-        if (typeof data.likes === "number") {
-          setText("dataset-hf-likes", formatNumber(data.likes));
-        }
-        if (data.cardData && Array.isArray(data.cardData.dataset_info)) {
-          setText("dataset-config-count", formatNumber(data.cardData.dataset_info.length));
-        }
-      })
-      .catch(function () {
-        setText("dataset-hf-downloads", "Unavailable");
-        setText("dataset-hf-likes", "Unavailable");
       });
   })();
 </script>

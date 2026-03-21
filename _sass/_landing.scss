@@ -18,6 +18,10 @@
   box-shadow: 0 1.25rem 2.75rem rgba($grey-color-dark, 0.08);
 }
 
+.landing-hero--single {
+  grid-template-columns: 1fr;
+}
+
 .landing-eyebrow {
   margin-bottom: 0.75rem;
   font-size: 0.82rem;
