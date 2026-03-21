@@ -2,12 +2,31 @@
 layout: page
 title: resources
 permalink: /resources/
-description: Framework links, dataset links, and usage metrics for NativQA and MultiNativQA.
+description: Framework links, dataset links, and related work pages for NativQA resources.
 nav: true
 nav_order: 1
 ---
 
-The resources below collect the official links, usage indicators, and coverage details for both the framework and dataset.
+The resources below collect the official links, usage indicators, and coverage details for the framework, datasets, and related work pages.
+
+## EverydayMMQA and OASIS
+
+<div class="row">
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">Spoken visual QA</p>
+        <!-- <h3 class="card-title">EverydayMMQA and OASIS</h3> -->
+        <p class="card-text">
+          Explore the multilingual and multimodal framework for culturally grounded spoken visual QA, with the paper summary, pipeline, dataset scale, and benchmark findings in one place.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/everydaymmqa/' | relative_url }}">EverydayMMQA Detail</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## NativQA Framework {#framework}
 
@@ -36,8 +55,7 @@ The resources below collect the official links, usage indicators, and coverage d
     <p class="landing-stat__label">GitLab forks</p>
   </div>
 </div>
----
-## Dataset {#dataset}
+
 
 ### MultiNativQA Dataset {#multinativqadataset}
 
