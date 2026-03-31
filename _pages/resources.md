@@ -48,9 +48,11 @@ The resources below collect the official framework links and dedicated pages for
 <p class="landing-install"><span>Quick install</span> <code>pip install nativqa-framework</code></p>
 
 <div class="landing-stats landing-stats--resource">
-  <div class="landing-stat card">
-    <div class="landing-stat__value landing-stat__value--small" id="framework-pypi-downloads">Unavailable</div>
-    <p class="landing-stat__label">PyPI install downloads (public API)</p>
+  <div class="landing-stat card landing-stat--badge">
+    <a class="landing-badge" href="https://pepy.tech/projects/nativqa-framework" target="_blank" rel="noopener noreferrer" title="View NativQA Framework download stats on Pepy">
+      <img src="https://static.pepy.tech/personalized-badge/nativqa-framework?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="Total PyPI downloads for NativQA Framework">
+    </a>
+    <p class="landing-stat__label">All-time PyPI downloads</p>
   </div>
   <div class="landing-stat card">
     <div class="landing-stat__value landing-stat__value--small" id="framework-git-clones">Not public</div>
@@ -80,7 +82,7 @@ The resources below collect the official framework links and dedicated pages for
   </div>
 </div>
 
-<p class="resource-meta-note">Metrics are fetched from public APIs when available. Last checked: <span id="metrics-last-updated">runtime</span>.</p>
+<p class="resource-meta-note">Metrics are fetched from public APIs or badge services when available. Last checked: <span id="metrics-last-updated">runtime</span>.</p>
 
 <p class="resource-meta-note">Copyright &copy; Qatar Computing Research Institute.</p>
 
@@ -147,30 +149,5 @@ The resources below collect the official framework links and dedicated pages for
         setText("framework-git-clones", "Not public");
       });
 
-    fetch("https://pypistats.org/api/packages/nativqa-framework/overall?mirrors=false")
-      .then(function (response) {
-        if (!response.ok) {
-          throw new Error("PyPI stats API unavailable");
-        }
-        return response.json();
-      })
-      .then(function (data) {
-        if (!data || !Array.isArray(data.data)) {
-          throw new Error("PyPI stats data missing");
-        }
-        var total = data.data.reduce(function (sum, day) {
-          if (typeof day.downloads === "number") {
-            return sum + day.downloads;
-          }
-          return sum;
-        }, 0);
-        if (!total) {
-          throw new Error("PyPI stats total unavailable");
-        }
-        setText("framework-pypi-downloads", formatNumber(total));
-      })
-      .catch(function () {
-        setText("framework-pypi-downloads", "Unavailable");
-      });
   })();
 </script>
