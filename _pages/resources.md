@@ -12,7 +12,7 @@ The resources below collect the official framework links and dedicated pages for
 ## Resource pages
 
 <div class="row">
-  <div class="col-lg-6 mb-4">
+  <div class="col-lg-4 col-md-6 mb-4">
     <div class="card h-100 landing-card">
       <div class="card-body">
         <p class="landing-card__kicker">Dataset</p>
@@ -26,7 +26,7 @@ The resources below collect the official framework links and dedicated pages for
       </div>
     </div>
   </div>
-  <div class="col-lg-6 mb-4">
+  <div class="col-lg-4 col-md-6 mb-4">
     <div class="card h-100 landing-card">
       <div class="card-body">
         <p class="landing-card__kicker">Spoken visual QA</p>
@@ -36,6 +36,20 @@ The resources below collect the official framework links and dedicated pages for
         </p>
         <div class="landing-actions">
           <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/everydaymmqa/' | relative_url }}">Open page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">AudioLLM resource</p>
+        <h3 class="card-title">MENASpeechBank</h3>
+        <p class="card-text">
+          Explore the Arabic and MENA speech resource with a reference voice bank, persona-conditioned multi-turn conversations, and live Hugging Face download metrics.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn" href="{{ '/resources/menaspeechbank/' | relative_url }}">Open page</a>
         </div>
       </div>
     </div>
