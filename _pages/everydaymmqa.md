@@ -161,7 +161,7 @@ The paper evaluates a mix of closed and open multimodal models, including GPT-4.
 
 ```bibtex
 @article{alam2025everydaymmqa,
-  title={EverydayMMQA: A Multilingual and Multimodal Framework for Culturally Grounded Spoken Visual QA},
+  title={OASIS: A Multilingual and Multimodal Framework for Culturally Grounded Spoken Visual QA},
   author={Alam, Firoj and Shahroor, Ali Ezzat and Hasan, Md. Arid and Ali, Zien Sheikh and Bhatti, Hunzalah Hassan and Kmainasi, Mohamed Bayan and Chowdhury, Shammur Absar and Mousi, Basel and Dalvi, Fahim and Durrani, Nadir and Milic-Frayling, Natasa},
   journal={arXiv preprint arXiv:2510.06371},
   year={2025}

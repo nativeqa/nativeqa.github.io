@@ -54,6 +54,34 @@ The resources below collect the official framework links and dedicated pages for
       </div>
     </div>
   </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">Spoken QA dataset</p>
+        <h3 class="card-title">SpokenNativQA</h3>
+        <p class="card-text">
+          A multilingual resource of everyday spoken queries for evaluating LLMs in speech-centric, low-resource, and culturally grounded settings.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/spokennativqa/' | relative_url }}">Open page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100 landing-card">
+      <div class="card-body">
+        <p class="landing-card__kicker">Evaluation toolkit</p>
+        <h3 class="card-title">OmniScore</h3>
+        <p class="card-text">
+          A deterministic multilingual generative text evaluation toolkit with released data and model resources for reproducible evaluation beyond LLM-as-a-judge.
+        </p>
+        <div class="landing-actions">
+          <a class="btn btn-sm z-depth-0 landing-btn landing-btn--primary" href="{{ '/resources/omniscore/' | relative_url }}">Open page</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 ## NativQA Framework {#framework}
